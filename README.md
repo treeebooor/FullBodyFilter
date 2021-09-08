@@ -22,7 +22,7 @@ Openpose is used to filter the video for suitable frames, in particular single p
 
 
 
-A full report of the system design and implemenation details can be found [here](doc/A Learning-Based Data Collection Tool For Human Segmentation.pdf)
+A full report of the system design and implemenation details can be found in [doc](doc/)
 
 ## Sample Results
 
