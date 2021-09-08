@@ -13,7 +13,7 @@ Human segmentation is a difficult machine learning task of identifying and extra
 
 The model that was focused on is the DTEN ME model used for Zoom meetings virtual background. 
 
-Openpose is used to filter the video for suitable frames, in particular single person full body frames. Mask R-CNN is used to generate human masks to use a train labels. To find which images perform poorly on ME model, a comparison is done between ME masks and Mask R-CNN masks. The result is a set of images and masks that can be used as training data.
+Openpose is used to filter the video for suitable frames, in particular single person full body frames. Mask R-CNN is the teacher model that generates training labels. To find which images perform poorly on ME model, a comparison is done between ME masks and Mask R-CNN masks. The result is a set of images and masks that can be used as training data.
 
 <p align ="center">
   <img src="/img/overview.png" width="1000" />
@@ -27,10 +27,7 @@ A full report of the system design and implemenation details can be found [here]
 ## Sample Results
 
 <p float="left" align ="center">
-  <img src="/img/result_1.png" width="475" />
-  <img src="/img/result_2.png" width="475" /> 
-  <img src="/img/result_3.png" width="475" />
-  <img src="/img/result_4.png" width="475" />
+  <img src="/img/results.png" width="1000" />
   <em>Examples of train data saved. In each image bottom left is Mask R-CNN mask and bottom right is ME mask.</em>
 </p>
 
