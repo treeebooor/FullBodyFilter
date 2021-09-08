@@ -22,7 +22,7 @@ Openpose is used to filter the video for suitable frames, in particular single p
 
 
 
-A full report of the system design and implemenation details can be found [here](docs/)
+A full report of the system design and implemenation details can be found [here](doc/)
 
 ## Sample Results
 
@@ -32,6 +32,6 @@ A full report of the system design and implemenation details can be found [here]
 </p>
 
 ## Usage
-This project relies on Openpose and Mask R-CNN and all their dependencies. Instructions on how to set up each are found in there respective directories [here](dependecies/).
+This project relies on Openpose and Mask R-CNN and all their dependencies. Instructions on how to set up each are found in there respective directories [here](dependencies/).
 
 Documentation on how to use scripts are located in [doc](doc/).
