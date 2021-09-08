@@ -13,4 +13,10 @@ Human segmentation is a difficult machine learning task of identifying and extra
 The model that was focused on is the DTEN ME model used for Zoom meetings virtual background. 
 
 ![Worflow](/img/overview.png)
+*Overview of Program* 
+
+A full report of the system design and implemenation details can be found [here](docs/)
+
+## Sample Results
+
 
