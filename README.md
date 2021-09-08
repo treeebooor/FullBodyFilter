@@ -1,2 +1,4 @@
 # FullBodyFilter
-Single Person Full Body Filter From Video
+A Learning-Based Data Collection Tool For Human Segmentation
+
+
