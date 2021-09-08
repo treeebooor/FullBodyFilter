@@ -1,8 +1,8 @@
 Fullbody Single Person Filtering from YouTube Videos(fullbody_filter.py)
 
 This will download videos from YouTube and save images and masks that contain single full body person by using OpenPose keypoints to determine whether the face, hands, and feet are in the given frame and Mask-RCNN to generate the person mask.
-*Requires generate_mask.py and downloadVideo.py
-*pytube downloading videos sometimes does not work because Google changes Youtube internally. If this is the case, then set skip_download=True and manually download until a patch is ready.
+*Requires generate_mask.py and downloadVideo.py and Pytube 
+*Pytube downloading videos sometimes does not work because Google changes Youtube internally. If this is the case, then set skip_download=True and manually download until a patch is ready.
 
 How to use:
  - set all parameters(save paths, youtube links,...), line 101
